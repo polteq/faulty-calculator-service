@@ -7,3 +7,4 @@ if ! ./mvnw -q checkstyle:check; then
     exit 1
 fi
 echo "pre-push: Checkstyle OK."
+
